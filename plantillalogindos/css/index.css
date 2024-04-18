@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;900&display=swap');
+
+
+/*
+
+font-family: 'Rubik', sans-serif;
+
+*/
+
+/* line-height: 3em; */
+
+
+.t-f-t {
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 900 !important;
+}
+
+.t-f-p {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.centropch::placeholder {
+    text-align: center;
+
+}
+
+.fondologin {
+
+    background: rgb(244, 244, 244);
+}
+
+.btn-close {
+
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(139, 139, 139, 0.0);
+}
+
+.fondoimg {
+    height: 94.22vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.0) 40%), url(/img/34.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.loginP {
+    display: none;
+}
+
+.balnco {
+    color: rgb(250, 250, 250);
+}
+
+.colornegro-t {
+    color: rgb(33, 33, 33);
+}
+
+.portada {
+    position: relative;
+    height: 95vh;
+    padding: 0;
+}
+
+.ocupavid {
+    z-index: -100;
+}
+
+.ocupavid video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+
+}
+
+#carouselExampleDark {
+    height: 88vh;
+    display: flex;
+}
+
+.centrartitulos {
+    display: flex;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-shape-divider-bottom-1682073906 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1682073906 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 92px;
+}
+
+.custom-shape-divider-bottom-1682073906 .shape-fill {
+    fill: rgb(250, 250, 250);
+}
+
+.fondo-blanco {
+    background: rgb(250, 250, 250);
+}
+
+
+
+
+
+.t-imagen-t {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.padin-row {
+    padding: 0;
+}
+
+.tamano-vh {
+    height: 94vh;
+}
+
+.tamano-100 {
+    height: 100%;
+}
+
+
+
+.dfgasdfad {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    color: black !important;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.507) !important;
+
+}
+
+.formas {
+    border-radius: 56% 44% 64% 36% / 57% 32% 68% 43%;
+    background: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+}
+
+.formaimagen {
+    border-radius: 36% 64% 42% 58% / 42% 35% 65% 58%;
+    width: 100%;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: border-radius 500ms;
+}
+
+.formaimagen:hover {
+    border-radius: 55% 45% 50% 50% / 74% 31% 69% 26%;
+}
+
+.formas2 {
+    position: relative;
+}
+
+.formas2 .imagen {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url("/img/patron2.svg");
+    mask-image: url("/img/patron2.svg");
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center center;
+    -webkit-mask-image: url("/img/patron2.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    transition: transform 500ms;
+}
+
+.formas2 .mascara {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-image: url("/img/patron3.svg");
+    mask-image: url("/img/patron3.svg");
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center center;
+    -webkit-mask-image: url("/img/patron3.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    transition: transform 500ms;
+}
+
+.formas2:hover .mascara {
+    transform: rotate(30deg);
+}
+
+.formas2:hover .imagen {
+    transform: rotate(-30deg);
+}
+
+.formas3 {
+    position: relative;
+}
+
+.formas3 .imagen-forma1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.formas3 .imagen-forma1 svg {
+    transition: all 500ms;
+}
+
+.formas3:hover .imagen-forma1 svg {
+    transform-origin: center center;
+    transform: rotate(-120deg) scale(1.1);
+    fill: rgb(255, 13, 182);
+}
+
+.formas3:hover .imagen-forma3 img {
+    filter: grayscale(100%);
+}
+
+.formas3 .imagen-forma2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.formas3 .imagen-forma3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.formas3 .imagen-forma3 img {
+    mask-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1800' fill='%23808'%3E%3Cpath d='M1386.57 181.4c160.9 73.74 328.5 149.72 424.59 281.57 96.09 129.61 118.44 315.09 98.33 487.16-20.11 172.07-84.92 332.97-187.71 446.94-105.03 116.2-250.29 185.48-391.07 243.58-138.55 60.34-272.63 109.5-393.31 91.62-122.91-17.88-234.64-102.8-377.66-160.9-143.02-58.1-317.33-87.15-406.71-183.24-89.39-96.09-96.09-261.46 2.23-368.72 98.33-109.5 301.68-160.9 384.37-270.4 82.68-111.73 42.46-283.81 84.92-422.36C669.24 188.1 798.86 80.83 937.41 60.72c140.79-20.11 290.51 49.16 449.17 120.67Z'%3E%3C/path%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mask-position: center center;
+    -webkit-mask-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1800' fill='%23808'%3E%3Cpath d='M1386.57 181.4c160.9 73.74 328.5 149.72 424.59 281.57 96.09 129.61 118.44 315.09 98.33 487.16-20.11 172.07-84.92 332.97-187.71 446.94-105.03 116.2-250.29 185.48-391.07 243.58-138.55 60.34-272.63 109.5-393.31 91.62-122.91-17.88-234.64-102.8-377.66-160.9-143.02-58.1-317.33-87.15-406.71-183.24-89.39-96.09-96.09-261.46 2.23-368.72 98.33-109.5 301.68-160.9 384.37-270.4 82.68-111.73 42.46-283.81 84.92-422.36C669.24 188.1 798.86 80.83 937.41 60.72c140.79-20.11 290.51 49.16 449.17 120.67Z'%3E%3C/path%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center center;
+    transition: all 500ms;
+}
+
+.formas3 .imagen-forma1 svg {
+    fill: rgb(255, 36, 189)
+}
+
+.formas3 .imagen-forma2 svg {
+    fill: rgb(253, 107, 209)
+}
+
+.alturamin {
+    min-height: 100vh;
+}
+

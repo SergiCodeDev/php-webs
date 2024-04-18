@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;900&display=swap');
+
+
+/*
+
+font-family: 'Rubik', sans-serif;
+
+*/
+
+/* line-height: 3em; */
+
+
+.t-f-t {
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 900 !important;
+}
+
+.t-f-p {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.centropch::placeholder {
+    text-align: center;
+
+}
+
+.fondologin {
+
+    background: rgb(244, 244, 244);
+}
+
+.btn-close {
+
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(139, 139, 139, 0.0);
+}
+
+.fondoimg {
+    height: 94.22vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.0) 40%), url(/img/34.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.loginP {
+    display: none;
+}
+
+.balnco {
+    color: rgb(250, 250, 250);
+}
+
+.colornegro-t {
+    color: rgb(33, 33, 33);
+}
+
+.portada {
+    position: relative;
+    height: 95vh;
+    padding: 0;
+}
+
+.ocupavid {
+    z-index: -100;
+}
+
+.ocupavid video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+    
+}
+
+#carouselExampleDark {
+    height: 88vh;
+    display: flex;
+}
+
+.centrartitulos {
+    display: flex;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-shape-divider-bottom-1682073906 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1682073906 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 92px;
+}
+
+.custom-shape-divider-bottom-1682073906 .shape-fill {
+    fill: rgb(250, 250, 250);
+}
+
+.fondo-blanco {
+    background: rgb(250, 250, 250);
+}
+
+
+
+
+
+.t-imagen-t {
+    width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.padin-row {
+    padding: 0;
+}
+
+.tamano-vh {
+    height: 94vh;
+}
+
+.tamano-100 {
+    height: 100%;
+}
+
+.arreglo-card {
+    
+}
+
+.dfgasdfad{
+    background-color: #ffc107 !important;
+ border-color:#ffc107 !important;
+ color: black !important;
+ border-bottom: solid 2px rgba(0, 0, 0, 0.507) !important;
+
+}

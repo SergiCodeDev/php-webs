@@ -14,7 +14,10 @@
 
 ## Vista completa
 
+<div align="center">
 <img src="./README/04completa.png">
+</div>
+
 
 ## Iniciar Sesión
 
@@ -45,7 +48,9 @@
 
 ## Página completa con articulos relacionados
 
+<div align="center">
 <img src="./README/12articulocompleto.png">
+</div>
 
 ## Para que funcione una sección de este proyecto web, necesitas descargar lo siguiente (utilizado para aprender):
 
